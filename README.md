@@ -14,3 +14,5 @@ This repo is used by the APIMatic GitHub App validator automation agent to test 
 
 The automation agent creates a branch, modifies a trigger file, opens a PR, waits for the `APIMatic OpenAPI Linter` check run to complete, and asserts the outcome.
 Non-OpenAPI file changes (e.g. `README.md`) should produce a `neutral` conclusion.
+
+<!-- agent-trigger: 2026-04-21T05:15:59.509Z -->
